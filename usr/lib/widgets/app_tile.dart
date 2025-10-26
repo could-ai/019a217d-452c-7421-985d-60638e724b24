@@ -59,7 +59,7 @@ class AppTile extends StatelessWidget {
                     fontWeight: FontWeight.w600,
                   ),
                 ),
-                if (app.description.isNotEmpty) ..[
+                if (app.description.isNotEmpty) ...[
                   const SizedBox(height: 4),
                   Text(
                     app.description,
